@@ -5,7 +5,7 @@ Resources:
       PublicAccessBlockConfiguration:
         BlockPublicAcls: true
         BlockPublicPolicy: true
-        IgnorePublicAcls: false
+        IgnorePublicAcls: true
         RestrictPublicBuckets: false
     DeletionPolicy: Retain
     UpdateReplacePolicy: Retain
